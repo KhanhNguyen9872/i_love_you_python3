@@ -24,13 +24,11 @@ if (__name__=='__main__'):
     from sys import stdout,exit
     try:
         import win32com.client
-        from pyperclip import copy,paste
     except:
         if (name=='nt'):
-            system("python -m pip install pyperclip pypiwin32")
+            system("python -m pip install pypiwin32")
         else:
-            system("python3 -m pip install pyperclip pypiwin32")
-        from pyperclip import copy,paste
+            system("python3 -m pip install pypiwin32")
         import win32com.client
     try:
         clear()
