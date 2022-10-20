@@ -14,4 +14,8 @@ python -m pip install pyinstaller pypiwin32
 ```bash
 pyinstaller main.py --upx-dir=. --onefile --icon=<your-path-icon>
 ```
-6. Enjoy
+7. File exe in
+```
+./dist/main.exe
+```
+8. Send to your love and Enjoy
